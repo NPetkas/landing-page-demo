@@ -4,20 +4,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <title>My New Website</title>
+        <title>My Landing Page</title>
       </head>
+      
       <body>
-        <header class="bg-green">Header</header>
+        <header>
+                <nav class="text-right">
+                  <ul>
+                    <li> <a href="https://github.com/">Github</a></li>
+                    <li> <a href="#">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                  </ul>
+                </nav>            
+        </header>
         <main>
             <section>
             <h1>My New Website</h1> 
-            <img src="./assets/images/image-1.png" alt="box with coming soon"/>
-            <figure>Image with Caption</figure>
-            </section>
-            <section>
+            <figure>
+                <img src="./assets/images/image-1.png" alt="box with coming soon"/>
+                <p>Image with Caption</p>
+            </figure>
             <h2 id="contact">Contact Me</h2>
-            <form>Contact Form</form>
+            <form>
+                <ul>
+                    <li>
+                      <label class="text-right" for="name">Name:</label>
+                      <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                      <label class="text-right" for="email">Email:</label>
+                      <input type="text" id="email" name="user-email">
+                    </li>
+                  </ul>          
+            </form>
+            <button type="submit">SEND</button>
             </section>
         </main>
-        <footer class="bg-green">Footer</footer>
+        <footer>
+            <aside>© 2023 My New Website Productions</aside>
+        </footer>
+        <aside></aside>
       </body>

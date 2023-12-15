@@ -1,19 +1,107 @@
 /* universal selectors */
 * { 
-    margin: 5px;
-    padding: 5px
+    margin: 0px;
+    padding: 0px
 }
 /* Element selector */
 body {
     background-color: beige;
     color: rgb(32, 12, 12);
+    font-size: 20px;
+    font-family:"Goudy Bookletter 1911", sans-serif;
 }
+h1,
+h2 {
+  margin: 20px;
+}
+h2 {
+        background-color: #e5cbbc;
+  }
+main {
+    padding: 10px 0;
+}
+section {
+    text-align: center;
+    padding: 20px 10px 40px 10px; 
+}
+figure {
+    margin-bottom: 40px;
+}
+  
+img {
+    display: block;
+    margin: 20px auto;
+}
+  
+li {
+    display: inline;
+    padding: 5px 20px;
+}
+header {
+    border-bottom: 10px solid #DDAF94;
+}
+  footer {
+    border-bottom: 10px solid #4F4846;
+    color: #FDF8F5;
+    text-align: center;    
+}
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #266150;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 450px;
+    height: 85px;
+    padding: 10px;
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+}
+  
+label {
+    display: inline-block;
+    width: 100px;
+}
+    
+input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+    
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+    position: relative;
+    bottom: 50px
+}
+  
 /* Class selector */
 .bg-green {
-    background-color: forestgreen;
+    background-color: darkgreen;
     color: beige;
 }
+.text-center {
+    text-align: center;
+}
+  
+.text-right {
+    text-align: right;
+}
+  
 /* ID selector */
     #contact {
-        background-color: rgb(240, 181, 129);
+        background-color: #e5cbbc;
 }
