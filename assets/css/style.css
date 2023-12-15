@@ -1,0 +1,19 @@
+/* universal selectors */
+* { 
+    margin: 5px;
+    padding: 5px
+}
+/* Element selector */
+body {
+    background-color: beige;
+    color: rgb(32, 12, 12);
+}
+/* Class selector */
+.bg-green {
+    background-color: forestgreen;
+    color: beige;
+}
+/* ID selector */
+    #contact {
+        background-color: rgb(240, 181, 129);
+}
