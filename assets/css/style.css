@@ -10,17 +10,19 @@ body {
     font-size: 20px;
     font-family:"Goudy Bookletter 1911", sans-serif;
 }
-h1,
-h2 {
-  margin: 20px;
+h1
+{
+  margin: 30px;
 }
 h2 {
-        background-color: #e5cbbc;
+    margin-bottom: 20px;
   }
+
 main {
     padding: 10px 0;
 }
 section {
+    margin: 30px;
     text-align: center;
     padding: 20px 10px 40px 10px; 
 }
@@ -30,18 +32,25 @@ figure {
   
 img {
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
+    box-shadow: 10px 10px 10px;
 }
   
 li {
     display: inline;
-    padding: 5px 20px;
+    padding: 10px 30px;
 }
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}  
 header {
+    position: fixed;
     border-bottom: 10px solid #DDAF94;
 }
   footer {
-    border-bottom: 10px solid #4F4846;
+    border-top: 10px solid #DDAF94;
     color: #FDF8F5;
     text-align: center;    
 }
@@ -55,30 +64,25 @@ footer {
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 450px;
-    height: 85px;
-    padding: 10px;
-    border: 5px solid #DDAF94;
+    width: 400px;
+    height: 125px;
+    padding: 30px;
+    border: 5px solid #4F4846;
     border-radius: 20px;
+    background-color: rgb(237, 212, 155);
 }
   
 label {
     display: inline-block;
-    width: 100px;
+    width: 80px;
 }
     
 input, 
   textarea {
     box-sizing: border-box;
-    width: 300px;
+    width: 200px;
     border: 1px solid #4F4846;
-}
-  
-textarea {
-    vertical-align: top;
-    height: 60px;
-}
-    
+}   
 button {
     height: 40px;
     width: 120px;
@@ -103,5 +107,4 @@ button {
   
 /* ID selector */
     #contact {
-        background-color: #e5cbbc;
 }
